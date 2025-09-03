@@ -41,7 +41,7 @@ def get_html_after_js(url):
 
 
 if __name__ == "__main__":
-    target_url = "https://www.ixigo.com/search/result/flight?from=PNQ&to=NAG&date=08102025&adults=1&children=0&infants=0&class=e&source=Search+Form&utm_source=Brand_Ggl_Search&utm_medium=paid_search_google"
+    target_url = "https://www.ixigo.com/search/result/flight?from=PNQ&to=NAG&date=06092025&adults=1&children=0&infants=0&class=e&source=Search+Form&utm_source=Brand_Ggl_Search&utm_medium=paid_search_google"
     dynamic_html = get_html_after_js(target_url)
 
     if dynamic_html:
